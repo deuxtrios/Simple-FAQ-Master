@@ -1,0 +1,572 @@
+*
+    /// Box Model
+    $box-sizing: border-box 
+    $margin: 0
+    $padding: 0
+
+
+
+    // Properties
+    margin: $margin
+    padding: $padding
+    box-sizing: $box-sizing
+@media only screen and (min-width: 1280px)
+    body
+        /// Font
+        $body-font: 16px
+        $body-font-family: 'Inter'
+
+        /// Box Model
+        $body-height: 100vh
+
+
+
+        // Properties
+        font-family: $body-font-family
+        font-size: $body-font 
+        height: $body-height
+        a
+            /// Font 
+            $body-a-text-decoration: none
+            $body-a-color: #4E80EE
+
+
+
+            // Properties
+            color: $body-a-color
+            text-decoration: $body-a-text-decoration
+        .author-info
+            /// Box Model
+            $author-model-margin-top: 16px 
+
+            /// Font
+            $author-model-font-size: 14px 
+            $author-model-text-align: center 
+            $author-model-color: rgb(55, 65, 81)
+
+
+
+            // Properties
+            margin-top: $author-model-margin-top
+            font-size: $author-model-font-size
+            text-align: $author-model-text-align
+            color: $author-model-color
+        header
+            /// Font
+            $header-text-align: center
+            /// Heading 1
+            $header-h1-font-weight: 600
+            $header-h1-font-size: 2.25em
+            /// Paragraph
+            $header-p-font-weight: 400
+            $header-p-font-size: 1em
+
+
+            /// Box Model
+            $header-padding: 2em
+            /// Heading 1
+            $header-h1-padding-bottom: 0.3em
+
+
+
+            // Properties
+            text-align: $header-text-align 
+            padding: $header-padding
+            h1
+                padding-bottom: $header-h1-padding-bottom
+                font-weight: $header-h1-font-weight
+                font-size: $header-h1-font-size
+            p
+                font-weight: $header-p-font-weight
+                font-size: $header-p-font-size
+        main
+            /// Background
+            $main-background-color: #F8FAFC
+
+            /// Box Model
+            $main-height: 100%
+            /// Horizontal Line
+            $main-hr-width: 50%
+            $main-hr-margin: auto
+            $main-hr-opacity: 0.5
+
+
+
+            // Properties
+            background-color: $main-background-color
+            height: $main-height
+            section#track-order
+                /// Box-Model
+                $main-track-order-margin: auto
+                $main-track-order-width: 50%
+                $main-track-order-padding-top: 2em
+
+                /// Heading 2
+                $main-track-order-h2-padding-bottom: 1em
+
+                /// Paragraph
+                $main-track-order-p-padding-bottom: 1em
+                $main-track-order-p-padding-bottom-second: 2em
+
+                /// Ordered List
+                $main-track-order-ol-li-margin-left: 1.5em
+                $main-track-order-ol-li-padding-bottom: 1em
+
+                /// Font
+
+                /// Heading 2
+                $main-track-order-h2-font-weight: 600
+                $main-track-order-h2-font-size: 1.5em
+
+                /// Paragraph
+                $main-track-order-p-font-weight: 400
+                $main-track-order-p-font-size: 1em
+
+
+
+                // Properties
+                margin: $main-track-order-margin
+                width: $main-track-order-width
+                padding-top: $main-track-order-padding-top
+                h2
+                    padding-bottom: $main-track-order-h2-padding-bottom
+                    font-weight: $main-track-order-h2-font-weight
+                    font-size: $main-track-order-h2-font-size
+                p
+                    padding-bottom: $main-track-order-p-padding-bottom
+                    font-weight: $main-track-order-p-font-weight
+                    font-size: $main-track-order-p-font-size
+                p:nth-of-type(2)
+                    padding-bottom: $main-track-order-p-padding-bottom-second  
+                ol
+                    li
+                        margin-left: $main-track-order-ol-li-margin-left
+                        padding-bottom: $main-track-order-ol-li-padding-bottom  
+            hr
+                width: $main-hr-width
+                margin: $main-hr-margin
+                opacity: $main-hr-opacity
+
+            section#return-policy
+                /// Box Model
+                $main-return-policy-margin: auto 
+                $main-return-policy-width: 50%
+                $main-return-policy-padding-top: 2em 
+
+                /// Heading 2
+                $main-return-policy-h2-padding-bottom: 1em
+
+                /// Paragraph
+                $main-return-policy-p-padding-bottom: 1em
+
+                /// Unordered List
+                $main-return-policy-ul-li: 1.5em
+                $main-return-policy-ul-li-padding-bottom: 1em
+
+                /// Font 
+                
+                /// Heading 2
+                $main-return-policy-h2-font-weight: 600
+                $main-return-policy-h2-font-size: 1.5em 
+
+                /// Paragraph
+                $main-return-policy-p-font-weight: 400
+                $main-return-policy-p-font-size: 1em
+
+
+
+                // Properties
+                margin: $main-return-policy-margin
+                width: $main-return-policy-width
+                padding-top: $main-return-policy-padding-top
+                h2
+                    padding-bottom: $main-return-policy-h2-padding-bottom
+                    font-weight: $main-return-policy-h2-font-weight
+                    font-size: $main-return-policy-h2-font-size
+                p 
+                    padding-bottom: $main-return-policy-p-padding-bottom
+                    font-weight: $main-return-policy-p-font-weight
+                    font-size: $main-return-policy-p-font-size
+                ul
+                    li
+                        margin-left: $main-return-policy-ul-li
+                        padding-bottom: $main-return-policy-ul-li-padding-bottom
+@media only screen and (min-width: 1024px)
+    body
+        /// Font
+        $body-font: 16px
+        $body-font-family: 'Inter'
+
+        /// Box Model
+        $body-height: 100vh
+
+
+
+        // Properties
+        font-family: $body-font-family
+        font-size: $body-font 
+        height: $body-height
+        a
+            /// Font 
+            $body-a-text-decoration: none
+            $body-a-color: #4E80EE
+
+
+
+            // Properties
+            color: $body-a-color
+            text-decoration: $body-a-text-decoration
+        .author-info
+            /// Box Model
+            $author-model-margin-top: 16px 
+            $author-model-margin-bottom: 1em
+
+            /// Font
+            $author-model-font-size: 14px 
+            $author-model-text-align: center 
+            $author-model-color: rgb(55, 65, 81)
+
+
+
+            // Properties
+            margin-top: $author-model-margin-top
+            padding-bottom: $author-model-margin-bottom
+            font-size: $author-model-font-size
+            text-align: $author-model-text-align
+            color: $author-model-color
+        header
+            /// Font
+            $header-text-align: center
+            /// Heading 1
+            $header-h1-font-weight: 600
+            $header-h1-font-size: 2.25em
+            /// Paragraph
+            $header-p-font-weight: 400
+            $header-p-font-size: 1em
+
+
+            /// Box Model
+            $header-padding: 2em
+            /// Heading 1
+            $header-h1-padding-bottom: 0.3em
+
+
+
+            // Properties
+            text-align: $header-text-align 
+            padding: $header-padding
+            h1
+                padding-bottom: $header-h1-padding-bottom
+                font-weight: $header-h1-font-weight
+                font-size: $header-h1-font-size
+            p
+                font-weight: $header-p-font-weight
+                font-size: $header-p-font-size
+        main
+            /// Background
+            $main-background-color: #F8FAFC
+
+            /// Box Model
+            $main-height: 100%
+            /// Horizontal Line
+            $main-hr-width: 50%
+            $main-hr-margin: auto
+            $main-hr-opacity: 0.5
+
+
+
+            // Properties
+            background-color: $main-background-color
+            // height: $main-height
+            section#track-order
+                /// Box-Model
+                $main-track-order-margin: auto
+                $main-track-order-width: 50%
+                $main-track-order-padding-top: 2em
+
+                /// Heading 2
+                $main-track-order-h2-padding-bottom: 1em
+
+                /// Paragraph
+                $main-track-order-p-padding-bottom: 1em
+                $main-track-order-p-padding-bottom-second: 2em
+
+                /// Ordered List
+                $main-track-order-ol-li-margin-left: 1.5em
+                $main-track-order-ol-li-padding-bottom: 1em
+
+                /// Font
+
+                /// Heading 2
+                $main-track-order-h2-font-weight: 600
+                $main-track-order-h2-font-size: 1.5em
+
+                /// Paragraph
+                $main-track-order-p-font-weight: 400
+                $main-track-order-p-font-size: 1em
+
+
+
+                // Properties
+                margin: $main-track-order-margin
+                width: $main-track-order-width
+                padding-top: $main-track-order-padding-top
+                h2
+                    padding-bottom: $main-track-order-h2-padding-bottom
+                    font-weight: $main-track-order-h2-font-weight
+                    font-size: $main-track-order-h2-font-size
+                p
+                    padding-bottom: $main-track-order-p-padding-bottom
+                    font-weight: $main-track-order-p-font-weight
+                    font-size: $main-track-order-p-font-size
+                p:nth-of-type(2)
+                    padding-bottom: $main-track-order-p-padding-bottom-second  
+                ol
+                    li
+                        margin-left: $main-track-order-ol-li-margin-left
+                        padding-bottom: $main-track-order-ol-li-padding-bottom  
+            hr
+                width: $main-hr-width
+                margin: $main-hr-margin
+                opacity: $main-hr-opacity
+
+            section#return-policy
+                /// Box Model
+                $main-return-policy-margin: auto 
+                $main-return-policy-width: 50%
+                $main-return-policy-padding-top: 2em 
+
+                /// Heading 2
+                $main-return-policy-h2-padding-bottom: 1em
+
+                /// Paragraph
+                $main-return-policy-p-padding-bottom: 1em
+
+                /// Unordered List
+                $main-return-policy-ul-li: 1.5em
+                $main-return-policy-ul-li-padding-bottom: 1em
+
+                /// Font 
+                
+                /// Heading 2
+                $main-return-policy-h2-font-weight: 600
+                $main-return-policy-h2-font-size: 1.5em 
+
+                /// Paragraph
+                $main-return-policy-p-font-weight: 400
+                $main-return-policy-p-font-size: 1em
+
+
+
+                // Properties
+                margin: $main-return-policy-margin
+                width: $main-return-policy-width
+                padding-top: $main-return-policy-padding-top
+                h2
+                    padding-bottom: $main-return-policy-h2-padding-bottom
+                    font-weight: $main-return-policy-h2-font-weight
+                    font-size: $main-return-policy-h2-font-size
+                p 
+                    padding-bottom: $main-return-policy-p-padding-bottom
+                    font-weight: $main-return-policy-p-font-weight
+                    font-size: $main-return-policy-p-font-size
+                ul
+                    li
+                        margin-left: $main-return-policy-ul-li
+                        padding-bottom: $main-return-policy-ul-li-padding-bottom
+@media only screen and (min-width: 340px)
+    body
+        /// Font
+        $body-font: 16px
+        $body-font-family: 'Inter'
+
+        /// Box Model
+        $body-height: 100%
+
+
+
+        // Properties
+        font-family: $body-font-family
+        font-size: $body-font 
+        height: $body-height
+        a
+            /// Font 
+            $body-a-text-decoration: none
+            $body-a-color: #4E80EE
+
+
+
+            // Properties
+            color: $body-a-color
+            text-decoration: $body-a-text-decoration
+        .author-info
+            /// Box Model
+            $author-model-margin-top: 16px 
+            $author-model-margin-bottom: 1em
+
+            /// Font
+            $author-model-font-size: 14px 
+            $author-model-text-align: center 
+            $author-model-color: rgb(55, 65, 81)
+
+
+
+            // Properties
+            margin-top: $author-model-margin-top
+            padding-bottom: $author-model-margin-bottom
+            font-size: $author-model-font-size
+            text-align: $author-model-text-align
+            color: $author-model-color
+        header
+            /// Font
+            $header-text-align: center
+            /// Heading 1
+            $header-h1-font-weight: 600
+            $header-h1-font-size: 2.25em
+            /// Paragraph
+            $header-p-font-weight: 400
+            $header-p-font-size: 1em
+
+
+            /// Box Model
+            $header-padding: 2em
+            /// Heading 1
+            $header-h1-padding-bottom: 0.3em
+
+
+
+            // Properties
+            text-align: $header-text-align 
+            padding: $header-padding
+            h1
+                padding-bottom: $header-h1-padding-bottom
+                font-weight: $header-h1-font-weight
+                font-size: $header-h1-font-size
+            p
+                font-weight: $header-p-font-weight
+                font-size: $header-p-font-size
+        main
+            /// Background
+            $main-background-color: #F8FAFC
+
+            /// Box Model
+            $main-height: 100%
+            /// Horizontal Line
+            $main-hr-width: 90%
+            $main-hr-margin: auto
+            $main-hr-opacity: 0.5
+
+
+
+            // Properties
+            background-color: $main-background-color
+            // height: $main-height
+            section#track-order
+                /// Box-Model
+                $main-track-order-margin: 1em
+                $main-track-order-width: 80%
+                $main-track-order-padding-top: 2em
+
+                /// Heading 2
+                $main-track-order-h2-padding-bottom: 1em
+
+                /// Paragraph
+                $main-track-order-p-padding-bottom: 1em
+                $main-track-order-p-padding-bottom-second: 2em
+
+                /// Ordered List
+                $main-track-order-ol-li-margin-left: 1.5em
+                $main-track-order-ol-li-padding-bottom: 1em
+
+                /// Font
+
+                /// Heading 2
+                $main-track-order-h2-font-weight: 600
+                $main-track-order-h2-font-size: 1.5em
+
+                /// Paragraph
+                $main-track-order-p-font-weight: 400
+                $main-track-order-p-font-size: 1em
+
+
+
+                // Properties
+                margin: $main-track-order-margin
+                width: $main-track-order-width
+                padding-top: $main-track-order-padding-top
+                h2
+                    padding-bottom: $main-track-order-h2-padding-bottom
+                    font-weight: $main-track-order-h2-font-weight
+                    font-size: $main-track-order-h2-font-size
+                p
+                    padding-bottom: $main-track-order-p-padding-bottom
+                    font-weight: $main-track-order-p-font-weight
+                    font-size: $main-track-order-p-font-size
+                p:nth-of-type(2)
+                    padding-bottom: $main-track-order-p-padding-bottom-second  
+                ol
+                    li
+                        margin-left: $main-track-order-ol-li-margin-left
+                        padding-bottom: $main-track-order-ol-li-padding-bottom  
+            hr
+                width: $main-hr-width
+                margin: $main-hr-margin
+                opacity: $main-hr-opacity
+
+            section#return-policy
+                /// Box Model
+                $main-return-policy-margin: 1em 
+                $main-return-policy-width: 80%
+                $main-return-policy-padding-top: 2em 
+
+                /// Heading 2
+                $main-return-policy-h2-padding-bottom: 1em
+
+                /// Paragraph
+                $main-return-policy-p-padding-bottom: 1em
+
+                /// Unordered List
+                $main-return-policy-ul-li: 1.5em
+                $main-return-policy-ul-li-padding-bottom: 1em
+
+                /// Font 
+                
+                /// Heading 2
+                $main-return-policy-h2-font-weight: 600
+                $main-return-policy-h2-font-size: 1.5em 
+
+                /// Paragraph
+                $main-return-policy-p-font-weight: 400
+                $main-return-policy-p-font-size: 1em
+
+
+
+                // Properties
+                margin: $main-return-policy-margin
+                width: $main-return-policy-width
+                padding-top: $main-return-policy-padding-top
+                h2
+                    padding-bottom: $main-return-policy-h2-padding-bottom
+                    font-weight: $main-return-policy-h2-font-weight
+                    font-size: $main-return-policy-h2-font-size
+                p 
+                    padding-bottom: $main-return-policy-p-padding-bottom
+                    font-weight: $main-return-policy-p-font-weight
+                    font-size: $main-return-policy-p-font-size
+                ul
+                    li
+                        margin-left: $main-return-policy-ul-li
+                        padding-bottom: $main-return-policy-ul-li-padding-bottom
+        
+                        
+
+
+
+            
+            
+
+
+            
+
+
+

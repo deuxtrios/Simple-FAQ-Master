@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1280px) {
+  body {
+    font-family: "Inter";
+    font-size: 16px;
+    height: 100vh;
+  }
+  body a {
+    color: #4E80EE;
+    text-decoration: none;
+  }
+  body .author-info {
+    margin-top: 16px;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(55, 65, 81);
+  }
+  body header {
+    text-align: center;
+    padding: 2em;
+  }
+  body header h1 {
+    padding-bottom: 0.3em;
+    font-weight: 600;
+    font-size: 2.25em;
+  }
+  body header p {
+    font-weight: 400;
+    font-size: 1em;
+  }
+  body main {
+    background-color: #F8FAFC;
+    height: 100%;
+  }
+  body main section#track-order {
+    margin: auto;
+    width: 50%;
+    padding-top: 2em;
+  }
+  body main section#track-order h2 {
+    padding-bottom: 1em;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  body main section#track-order p {
+    padding-bottom: 1em;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  body main section#track-order p:nth-of-type(2) {
+    padding-bottom: 2em;
+  }
+  body main section#track-order ol li {
+    margin-left: 1.5em;
+    padding-bottom: 1em;
+  }
+  body main hr {
+    width: 50%;
+    margin: auto;
+    opacity: 0.5;
+  }
+  body main section#return-policy {
+    margin: auto;
+    width: 50%;
+    padding-top: 2em;
+  }
+  body main section#return-policy h2 {
+    padding-bottom: 1em;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  body main section#return-policy p {
+    padding-bottom: 1em;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  body main section#return-policy ul li {
+    margin-left: 1.5em;
+    padding-bottom: 1em;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  body {
+    font-family: "Inter";
+    font-size: 16px;
+    height: 100vh;
+  }
+  body a {
+    color: #4E80EE;
+    text-decoration: none;
+  }
+  body .author-info {
+    margin-top: 16px;
+    padding-bottom: 1em;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(55, 65, 81);
+  }
+  body header {
+    text-align: center;
+    padding: 2em;
+  }
+  body header h1 {
+    padding-bottom: 0.3em;
+    font-weight: 600;
+    font-size: 2.25em;
+  }
+  body header p {
+    font-weight: 400;
+    font-size: 1em;
+  }
+  body main {
+    background-color: #F8FAFC;
+  }
+  body main section#track-order {
+    margin: auto;
+    width: 50%;
+    padding-top: 2em;
+  }
+  body main section#track-order h2 {
+    padding-bottom: 1em;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  body main section#track-order p {
+    padding-bottom: 1em;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  body main section#track-order p:nth-of-type(2) {
+    padding-bottom: 2em;
+  }
+  body main section#track-order ol li {
+    margin-left: 1.5em;
+    padding-bottom: 1em;
+  }
+  body main hr {
+    width: 50%;
+    margin: auto;
+    opacity: 0.5;
+  }
+  body main section#return-policy {
+    margin: auto;
+    width: 50%;
+    padding-top: 2em;
+  }
+  body main section#return-policy h2 {
+    padding-bottom: 1em;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  body main section#return-policy p {
+    padding-bottom: 1em;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  body main section#return-policy ul li {
+    margin-left: 1.5em;
+    padding-bottom: 1em;
+  }
+}
+@media only screen and (min-width: 340px) {
+  body {
+    font-family: "Inter";
+    font-size: 16px;
+    height: 100%;
+  }
+  body a {
+    color: #4E80EE;
+    text-decoration: none;
+  }
+  body .author-info {
+    margin-top: 16px;
+    padding-bottom: 1em;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(55, 65, 81);
+  }
+  body header {
+    text-align: center;
+    padding: 2em;
+  }
+  body header h1 {
+    padding-bottom: 0.3em;
+    font-weight: 600;
+    font-size: 2.25em;
+  }
+  body header p {
+    font-weight: 400;
+    font-size: 1em;
+  }
+  body main {
+    background-color: #F8FAFC;
+  }
+  body main section#track-order {
+    margin: 1em;
+    width: 80%;
+    padding-top: 2em;
+  }
+  body main section#track-order h2 {
+    padding-bottom: 1em;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  body main section#track-order p {
+    padding-bottom: 1em;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  body main section#track-order p:nth-of-type(2) {
+    padding-bottom: 2em;
+  }
+  body main section#track-order ol li {
+    margin-left: 1.5em;
+    padding-bottom: 1em;
+  }
+  body main hr {
+    width: 90%;
+    margin: auto;
+    opacity: 0.5;
+  }
+  body main section#return-policy {
+    margin: 1em;
+    width: 80%;
+    padding-top: 2em;
+  }
+  body main section#return-policy h2 {
+    padding-bottom: 1em;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  body main section#return-policy p {
+    padding-bottom: 1em;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  body main section#return-policy ul li {
+    margin-left: 1.5em;
+    padding-bottom: 1em;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
